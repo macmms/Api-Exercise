@@ -54,4 +54,6 @@ This is useful to help you understand what's happening.
 
 Learn eclipse debugging [here](https://www.eclipse.org/community/eclipse_newsletter/2017/june/article1.php).
 
+You may also need our [API Guide](https://fiixlabs.github.io/api-documentation/guide.html) 
+and our [API Reference](https://fiixlabs.github.io/api-documentation/)
  

@@ -5,7 +5,9 @@ This will teach you how to use Fiix's API.
 
 ## Setting up:
 
-Download and install the [latest JDK from Adopt Open JDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspo)
+Download and install the [latest JDK from Adopt Open JDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
+
+Install instructions are [here](https://dzone.com/articles/installing-openjdk-11-on-macos)
 
 Download and install [STS 4](https://download.springsource.com/release/STS4/4.2.0.RELEASE/dist/e4.11/spring-tool-suite-4-4.2.0.RELEASE-e4.11.0-macosx.cocoa.x86_64.dmg)
 

@@ -5,23 +5,40 @@ This will teach you how to use Fiix's API.
 
 ## Setting up:
 
-Download and install the [latest JDK from Adopt Open JDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
+Download the [latest JDK from Adopt Open JDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
 
-Install instructions are [here](https://dzone.com/articles/installing-openjdk-11-on-macos)
+Unzip this and copy it using the following terminal command `sudo cp jdk-11.0.2+9 /Library/Java/JavaVirtualMachines/`, you may need to enter your password.
+
+Once this is complete, type the following terminal command: `vi ~/.bash_profile`
+
+Press `a`
+
+Paste in the following: `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2+9/Contents/Home`
+
+Hit `esc`
+
+Type `ZZ` (Holding Shift, hit the Z key twice).
+
+Close and reopen the terminal, and type `java -version`
+
+You should see:
+`openjdk version "11.0.2" 2019-01-15
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.2+9)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.2+9, mixed mode)`
 
 Download and install [STS 4](https://download.springsource.com/release/STS4/4.2.0.RELEASE/dist/e4.11/spring-tool-suite-4-4.2.0.RELEASE-e4.11.0-macosx.cocoa.x86_64.dmg)
 
 Download this as a zip and expand to `~/Documents/learning`
 
-You should have `~/Documents/learning/api-exercise`
+You should have `~/Documents/learning/Api-Exercise-master`
 
 Open STS, the default workspace is fine
 
 In the **File** menu, go to **Import...**
 
-Under the Maven folder, choose **Existing Maven Projects**
+Under the **Maven** folder, choose **Existing Maven Projects**
 
-Select the `~/Documents/learning/api-exercise` folder
+Select the `~/Documents/learning/Api-Exercise-master` folder
 
 Click OK
 

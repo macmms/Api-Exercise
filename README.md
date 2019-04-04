@@ -7,7 +7,7 @@ This will teach you how to use Fiix's API.
 
 Download the [latest JDK from Adopt Open JDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
 
-Unzip this and copy it using the following terminal command `sudo cp jdk-11.0.2+9 /Library/Java/JavaVirtualMachines/`, you may need to enter your password.
+Unzip this and move to your Downloads folder using `cd ~/Downloads`.  Move it using the following terminal command `sudo mv jdk-11.0.2+9 /Library/Java/JavaVirtualMachines/`, you may need to enter your password.
 
 Once this is complete, type the following terminal command: `vi ~/.bash_profile`
 

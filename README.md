@@ -3,6 +3,32 @@ Welcome to Fiix's API Exercise.
 
 This will teach you how to use Fiix's API.
 
+The objective of this exercise is for participants to:
+
+- Navigate our API documentation
+- Set up an SDK
+- Read and build a basic API application
+- Make calls to and from the Fiix API 
+
+Participants are split up into two teams. The teams are as follow:
+
+The A Team:
+- Adwait
+- Colin
+- Momo
+- Sid
+
+The Killer Bzz:
+- Stuart
+- Matt
+- Julie
+- Yash
+
+# Initial exercise
+
+Each team is provided with two CMMS tenants on the Fiix dev server. Each tenant is configured with 5 sites and 55 users (some active, some inactive). By the end of the two days, each team must be able to run a working integration that maps each of the 55 users to one of the 5 sites in the tenants. Each site must have at least one user assigned to it. It is up to the team to determine which users should be mapped to which sites. However, every user must be assigned to at least one site (this cannot be 'No Site').
+
+
 ## Setting up:
 
 Download the [latest JDK from Adopt Open JDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
